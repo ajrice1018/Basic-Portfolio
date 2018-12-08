@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,29 +25,32 @@
         </div>       
     </div>
     
-    <div id="bio">
+    <div class="bio">
         <h2>
             Contact
         </h2>
 
         <form action="/my-handling-form-page" method="post">
             
-            <div>
-              <label for="name"> Name</label><br>
-              <input type="text" id="name" name="user_name">
-            </div>
-            <div>
-              <label for="mail">E-mail</label><br>
-              <input type="email" id="mail" name="user_mail">
-            </div>
-            <div>
-              <label for="msg">Message</label><br>
-              <textarea id="msg" name="user_message"></textarea>
-            </div>
+            
+              <label for="name"> Name</label>
+              <input type="text" id="name" name="user_name" placeholder="Your Name...">
+            
+            
+            
+              <label for="mail">E-mail</label>
+              <input type="text" id="mail" name="user_mail" placeholder="Email...">
+            
+            
+            
+              <label for="msg">Message</label>
+              <textarea id="msg" name="msg" placeholder="Write Something" style="height: 200px"></textarea>
+            
 
-            <div class="button">
+            
+                <div class="button">
                     <button type="submit">Send your message</button>
-            </div>
+                </div>
         
         </form>
     </div>

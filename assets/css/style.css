@@ -14,7 +14,9 @@ img{
     background-color:#ffffff;
     border-bottom: solid;
     border-color: #cccccc;
-    padding: 0px 25px;
+    padding: 12px 25px;
+    border: 3px;
+    font-style: 'Georgia', Times, Times New Roman, serif;
 }
 
 .header a {
@@ -29,8 +31,7 @@ img{
 .header-right {
     float: right;
     color: #777777;
-    text-decoration: none
-    
+    text-decoration: none;
 }
 
 .header a.logo {
@@ -41,9 +42,7 @@ img{
     color: #ffffff;
 }
 
-
 .footer{
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -53,13 +52,19 @@ img{
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     border-top: 8px solid #4aaaa5;
 }
-#bio{
+
+.bio{
     margin: 30px;
     border-color: #cccccc;
     border-style: solid;
     padding: 10px;
     background: white;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
+}
+
+p{
+    line-height: 1.5;
 }
 
 h2{
@@ -102,5 +107,35 @@ h2{
 
 div.photo{
     position: relative;
+}
+
+input[type=text], select,textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=msg] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
